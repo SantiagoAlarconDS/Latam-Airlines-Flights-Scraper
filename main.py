@@ -5,7 +5,7 @@ from utils.get_flight_search_inputs import get_flight_search_inputs
 if __name__ == "__main__":
     try:
         # Set up the base URL
-        url_base = 'https://www.latamairlines.com/co/es/ofertas-vuelos?' 
+        url_base = 'https://www.latamairlines.com/us/en/flight-offers?' 
 
         urls, departure_dates, return_dates, origin, destination = get_flight_search_inputs(url_base)
 

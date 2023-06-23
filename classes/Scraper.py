@@ -45,7 +45,7 @@ class FlightScraper:
         """
         # Find all the fare elements
         fares = flight.find_elements(
-            by=By.XPATH, value='.//ol[@aria-label="Tarifas disponibles."]/li')
+            by=By.XPATH, value='.//ol[@aria-label="Available fares."]/li')
         prices = []
         for fare in fares:
             # Get the fare name
