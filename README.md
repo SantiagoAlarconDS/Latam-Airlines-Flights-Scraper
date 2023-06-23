@@ -2,6 +2,8 @@
 
 This repository contains a flight scraper tool that retrieves flight information from the LATAM Airlines website. It allows users to search for flights based on specific departure and return dates, as well as origin and destination airports.
 
+<p align="center"><img src="https://github.com/SantiagoAlarconDS/Latam-Airlines-Flights-Scraper/blob/main/readme_images/project_flight.jpg" width="900" height="700"></p>
+
 ---
 
 ## Set Up and Usage
