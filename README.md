@@ -5,6 +5,20 @@ This repository contains a flight scraper tool that retrieves flight information
 <p align="center"><img src="https://github.com/SantiagoAlarconDS/Latam-Airlines-Flights-Scraper/blob/main/readme_images/project_flight.jpg" width="900" height="700"></p>
 
 ---
+# Motivation
+The Flight Scraper tool was developed to provide users a way to search for flights and gather relevant information from the LATAM Airlines website. By automating the scraping process, users can quickly retrieve flight details, including prices, times, and stopovers, for their desired travel dates and destinations. The tool aims to be embedded in an app to simplify the flight search process and assist users in making informed decisions when booking their flights.
+
+# Features
+
+* Search for Flights: Users can enter their desired departure and return dates, as well as the origin and destination airports, to search for available flights.
+
+* Multiple Searches: The tool allows users to perform multiple searches by prompting for new departure and return dates. This feature enables users to compare flight options across different dates.
+
+* Data Extraction: The scraper extracts flight details such as prices, times, and stopovers from the LATAM Airlines website, providing comprehensive information for each search.
+
+* Data Normalization: The scraped data is normalized and organized into a structured format using the Pandas library. This allows for easy analysis and further processing of the flight information.
+
+* Data Export: The flight information is saved in an Excel file for convenient access and sharing. Each search is saved in a separate directory based on the departure and return dates, along with the airport codes.
 
 ## Set Up and Usage
 
